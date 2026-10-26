@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "dev.zairoq.scrollclick.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MouseScrollMixin",
+    "MinecraftClientAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
