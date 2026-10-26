@@ -19,7 +19,7 @@ public final class ScrollClickClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-        KeyBinding.Category category = KeyBinding.Category.register(
+        KeyBinding.Category category = KeyBinding.Category.create(
                 Identifier.of("zairoq_scrollclick", "general")
         );
 
