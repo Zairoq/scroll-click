@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "zairoq_scrollclick",
+  "version": "${version}",
+  "name": "Zairoq Scroll Click",
+  "description": "Generates a vanilla left-click action for each vertical mouse-wheel event while enabled.",
+  "authors": ["Zairoq"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.zairoq.scrollclick.ScrollClickClient"
+    ]
+  },
+  "mixins": [
+    "zairoq_scrollclick.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.3",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
