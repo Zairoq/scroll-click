@@ -3,6 +3,7 @@
   "package": "dev.zairoq.scrollclick.mixin",
   "compatibilityLevel": "JAVA_21",
   "client": [
+    "KeyBindingAccessor",
     "MouseScrollMixin"
   ],
   "injectors": {
